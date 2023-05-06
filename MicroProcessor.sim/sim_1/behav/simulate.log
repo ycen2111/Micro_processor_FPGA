@@ -1,4 +1,0 @@
-Vivado Simulator 2015.2
-Time resolution is 1 ps
-WARNING: File InitialVGAFrameBuffer.txt referenced on /home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Frame_Buffer.v at line 39 cannot be opened for reading. Please ensure that this file is available in the current working directory.
-WARNING: File InitialVGAFrameBuffer.txt referenced on /home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Frame_Buffer.v at line 39 cannot be opened for reading. Please ensure that this file is available in the current working directory.
