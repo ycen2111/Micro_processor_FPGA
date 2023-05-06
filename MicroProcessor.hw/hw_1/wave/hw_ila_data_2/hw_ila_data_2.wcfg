@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/s2314951/Vivado/MicroProcessor/MicroProcessor.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" type="array" fp_name="seg7_0/BUS_ADDR">
+      <obj_property name="ElementShortName">seg7_0/BUS_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg7_0/BUS_ADDR[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="seg7_0/DATA_X">
+      <obj_property name="ElementShortName">seg7_0/DATA_X[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg7_0/DATA_X[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="seg7_0/DATA_Y">
+      <obj_property name="ElementShortName">seg7_0/DATA_Y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg7_0/DATA_Y[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

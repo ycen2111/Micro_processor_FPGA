@@ -1,0 +1,55 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/MouseTransmitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MouseTransmitter
+WARNING: [VRFC 10-756] identifier Curr_State is used before its declaration [/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/MouseTransmitter.v:42]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/MouseReceiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MouseReceiver
+WARNING: [VRFC 10-756] identifier Curr_State is used before its declaration [/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/MouseReceiver.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/MouseMasterSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MouseMasterSM
+WARNING: [VRFC 10-756] identifier Curr_State is used before its declaration [/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/MouseMasterSM.v:44]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Stack.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Stack
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/TenHz_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TenHz_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/IRTransmitterSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IRTransmitterSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/seg7decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/MouseTransceiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MouseTransceiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/buttonDetecor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buttonDetecor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/VGA_Sig_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_Sig_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Frequency_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Frequency_Divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Frame_Buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Frame_Buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/seg7Driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7Driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Mouse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mouse
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/Button.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Button
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/VGA_Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/LED_Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sources_1/new/TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.srcs/sim_1/new/TOP_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/s2314951/Vivado/MicroProcessor/MicroProcessor.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

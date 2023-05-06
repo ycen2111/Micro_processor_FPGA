@@ -1,0 +1,80 @@
+ /* Address
+  Peripheral     Base Address    High Address
+ ----------------------------------------------
+ Data Memory        0x00            0x7F
+ IR Transmitter     0x90            0x90
+ Mouse              0xA0            0xA2
+ VGA                0xB0            0xB2
+ LEDs               0xC0            0xC0
+ SevenSeg           0xD0            0xD1
+ Timer              0xF0            0xF3
+ */
+ 
+ /* ALU
+ ALU Code   Operation
+ --------------------------
+ 4'h0       add
+ 4'h1       sub
+ 4'h2       multi
+ 4'h3       A shift left
+ 4'h4       A shift right
+ 4'h5       A add 1
+ 4'h6       B add 1
+ 4'h7       A sub 1
+ 4'h8       B sub 1
+ 4'h9       if A = B
+ 4'hA       if A > B
+ 4'hB       if A < B
+ */
+ 
+ /*
+ Instruction            First Byte          Second Byte 
+ --------------------------------------------------------
+ A <- [Mem_ADD]         X0                  Mem_ADD
+ B <- [Mem_ADD]         X1                  Mem_ADD
+ [Mem_ADD] <- A         X2                  Mem_ADD
+ [Mem_ADD] <- B         X3                  Mem_ADD
+ A <- ALU_OP(A,B)       {ALU_code,4}     /
+ B <- ALU_OP(A,B)       {ALU_code,5}     /
+ BREQ ADDR (A=B)        96                  Mem_ADD
+ BGTQ ADDR (A>B)        A6                  Mem_ADD
+ BLTQ ADDR (A<B)        B6                  Mem_ADD
+ GOTO ADDR              X7                  Mem_ADD
+ GOTO_IDLE              X8                  /
+ FUNCTION_CALL ADDR     X9                  Mem_ADD
+ RETURN                 XA                  /
+ A <- [A]               XB                  /
+ B <- [B]               XC                  /
+ A <- Imm               XD                  Imm
+ B <- Imm               XE                  Imm
+ 
+ */
+
+ /*
+ Peripheral             Address             Description
+ ---------------------------------------------------------
+ IR                     90                  send command[3:0]
+                        91                  change car color                
+ Mouse                  A0                  Read X axis
+                        A1                  Read Y axis
+                        A2                  set whether interrupt enable [0]
+                        A3                  set mouse sensitivity (0100 for adding, 1000 for sub)
+                        A4                  Read Sensitivity
+ Button                 A5                  Read button triggle state
+                        A6                  enable button
+ VGA                    B0                  
+ LEDs                   C0                  set LED on/off state
+ 7 segments             D0                  read bus data to X (left two numbers)
+                        D1                  read bus data to Y (right two numbers)
+ Timer                  F0                  read current timer value (timer[7:0])
+                        F1                  set interrupt ratio (send 100 as 100ms)
+                        F2                  reset timer to 0
+                        F3                  set whether interrupt enable [0]
+ */
+ 
+ /*
+  0x70 - 0x7A: constant value 0-10
+  0x7B: mouse_X
+  0x7C: mouse_Y
+  0x7F: hold the PC content before function call instruction
+  */
